@@ -1,0 +1,77 @@
+.bg-contactus{
+  background-image: url("/images/contact.jpg");
+  background-position: center center; 
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.third-of-width {
+    width: 50%
+}
+
+.nav-link-hover:hover{
+    border-bottom: 1px solid #E4A86D;
+   
+   }
+  .font-color-custom {
+    color:#E4A86D
+  }
+  .font-family-custom {
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  .btn {
+    color: #717981;
+    background-color: white;
+    border-color: #717981; /*set the color you want here*/
+    border-radius: 5px;
+  }
+  .btn:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #E4A86D;
+    border-color:  #E4A86D ; /*set the color you want here*/
+  }
+
+  .accordion-button:hover 
+  {
+   box-shadow: none;
+  background-color: #E4A86D;
+   color:whitesmoke;
+   border:#E4A86D
+   }
+
+   .accordion-button :active 
+  {
+   box-shadow: none;
+  background-color: #E4A86D;
+   color:whitesmoke;
+   border:#E4A86D
+   }
+  
+
+   .accordion-button{
+    background-color:whitesmoke;
+    color:#E4A86D
+   }
+   .font-color-custom 
+   {
+    color:#E4A86D
+  }
+
+   .hoverclass :focus-visible,
+   .hoverclass.active 
+    {
+     background-color: #E4A86D;
+     color:whitesmoke;
+     border:#E4A86D
+   }
+ 
+@media all and (max-width:800px){
+
+    .third-of-width {
+        width: 100%
+    }
+
+    .nav-link {
+      text-align: center;
+    }
+   }

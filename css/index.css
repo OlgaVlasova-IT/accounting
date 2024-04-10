@@ -1,0 +1,232 @@
+
+
+.font-family-custom {
+  /* font-family: 'Red Hat Display', sans-serif; */
+  font-family: "Questrial", sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    border: 2px solid;
+}
+.bg-pic{
+    background-image: url("/images/accounting10\ reverse.jpg");
+    background-position: center bottom; 
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.bg-pic1{
+  background-image: url("/images/accounting\ 13.jpg");
+  background-position: center center; 
+  background-repeat:no-repeat;
+  background-size: contain;
+
+}
+.svg-light {
+ fill:rgb(248,249,250) 
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+
+body{
+  font-family: "Questrial", sans-serif;
+}
+
+.rounded-corners {
+    border-radius:  25px 25px 25px 25px;
+}
+
+
+
+.no-border {
+  border: none;
+}
+.icon-cont{
+
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+
+.inline-photo {
+  /* border: 1em solid #fff;
+  border-bottom: 4em solid #fff;
+  border-radius: .25em;
+  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+  margin: 2em auto; */
+  /* max-width: 600px; */
+  opacity: 0;
+  -webkit-transform: translateY(4em) ;
+          transform: translateY(4em) ;
+  -webkit-transition: opacity .3s .25s ease-out,
+              -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+  transition: opacity .3s .25s ease-out,
+              -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out;
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out,
+              -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+  width: 100%;
+
+  will-change: transform, opacity;
+}
+
+.inline-photo.is-visible {
+  opacity: 1;
+  -webkit-transform: rotateZ(0);
+          transform: rotateZ(0);
+}
+
+
+
+.border-radius{
+  border-radius: 100px;
+}
+
+
+.st0{fill:#F05454;}
+.textInput {
+    width: 320px;
+    height: 35px;
+    border-radius: 4px;
+    border:none;
+  }
+
+
+  .textArea{
+    border-radius: 8px;
+    border:none;
+   
+
+  }
+  .contForm {
+
+    width:50%
+  }
+ 
+.carousel-height{
+  height: 300px;
+}
+.hoverclass :hover {
+  background-color: #E4A86D;
+  color:whitesmoke;
+}
+#requestForm{
+  display: none;
+ 
+  /* position: absolute;
+  top: 6.0em;
+  right: 40em; */
+  min-width: 3em;
+  min-height: 3em;
+  width: 120hv;
+  height: auto;
+  cursor: pointer;
+
+  /* border-radius: 15px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  flex-wrap: wrap;
+  font-size: 12px;
+  z-index: 1000 ;
+}
+
+.btn-primary {
+  color: #717981;
+  background-color: white;
+  border-color: whitesmoke; /*set the color you want here*/
+  border-radius: 5px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #E4A86D;
+  border-color:  #E4A86D ; /*set the color you want here*/
+}
+.bg{
+  background-color: transparent ;
+  z-index: 101;
+}
+
+.btn-class-hover :focus,
+.btn-class-hover :hover {
+  background-color: #E4A86D;
+  color: whitesmoke;
+  border-color: #E4A86D;
+}
+
+.btn-class-hover.active {
+  background-color: #E4A86D;
+  color: whitesmoke;
+}
+
+
+.card-text {
+  font-family: "Questrial", sans-serif;
+}
+.font-color-custom {
+  color:#E4A86D
+}
+.nav-link-hover:hover{
+ border-bottom: 1px solid #E4A86D;
+
+}
+.third-of-width {
+
+  width: 40%
+}
+@media all and (max-width:800px){
+  #servicesDiv
+  {
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100
+  }
+  .third-of-width {
+  
+  width: 100%
+}
+
+#ourServicesphoto {
+  display: no display;
+}
+  .bg-pic{
+    /* background-image: url("/images/accounting.jpg"); */
+    background-position: center center; 
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+
+.nav-link {
+  text-align: center;
+}
+}
+
+
+@media all and (max-width:400px){
+
+  
+
+  }
+
