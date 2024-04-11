@@ -5,6 +5,9 @@
   background-size: cover;
 }
 
+.body {
+  font-family: "Questrial", sans-serif;
+}
 .third-of-width {
     width: 50%
 }
@@ -17,7 +20,7 @@
     color:#E4A86D
   }
   .font-family-custom {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Questrial", sans-serif;
   }
   .btn {
     color: #717981;
