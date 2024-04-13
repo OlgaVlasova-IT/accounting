@@ -14,19 +14,19 @@
         <link rel="stylesheet" href="css/contact.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Marcellus&family=Red+Hat+Display&family=Vollkorn&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Marcellus&family=Red+Hat+Display&family=Questrial&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Abel&family=Marcellus&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </head>
     <body>
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" id="navBar">
         <div class="container-fluid">
-          <a class="navbar-brand px-5" href="#" style="color: #E4A86D; font-family: 'Marcellus', serif; border: 2px solid #212529 ">KGP group</a>
+          <a class="navbar-brand px-5" href="#" style="color: #E4A86D;  border: 2px solid #212529 ">KGP group</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class=" collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav py-1 my-1 " style=" font-family: 'Marcellus', serif;" >
+            <ul class="navbar-nav py-1 my-1 " >
               
               <li class="nav-item mx-3"   >
                 <a class="nav-link fw-bold nav-link-hover " aria-current="page" href="index.html" style="color: #E4A86D" >Home</a>
@@ -84,11 +84,12 @@
 
 
 
-           <section class ="d-flex  align-items-center" id="form">
+           <section  id="form">
+            <div class =" container d-flex  align-items-start justify-content-center">
             <!--Form 1 Contact Us-->
-            <div class="d-flex flex-column justify-content-start align-items-center my-5 third-of-width">
-                  <h2 class="text-start my-1 font-color-custom py-2 fw-normal" >Book your consultation today!</h2>
-                <p class=" text-center my-1 py-2 "> Book an appointment, get a quote, or ask any question. Fill out the form below, and we’ll respond within 24 hours!</p>
+            <div class="d-flex flex-column justify-content-start align-items-start my-5 third-of-width">
+                  <h2 class="text-start my-1 font-color-custom py-2 fw-normal" >Book your consultation today</h2>
+                <p class=" text-start my-1 py-2 "> Book an appointment, get a quote, or ask any question. </p>
           <form class="d-flex flex-column justify-content-start third-of-width"
          action="https://formspree.io/f/mkneegln"
           method="POST"
@@ -113,12 +114,12 @@
                 
               </div>
             <!--Form 2 Request Call-->  
-            <div class="d-flex flex-column justify-content-center align-items-center my-5 third-of-width">
+            <div class=" container d-flex flex-column justify-content-start align-items-start my-5 third-of-width">
              
               <!-- <div class="container-fluid px-5 " >
                 <h1 class="display-5 fw-bold fs-2 text py-4 text-center font-color-custom py-1"  style=" font-family: 'Marcellus', serif; ">Request a call back</h1>-->
-                <h2 class="text-center my-1 font-color-custom py-2 fw-normal" > Request a callback</h2>
-                <p class=" text text-center my-1 py-2 " > Fill out the form below, and we'll call you within 24 hours</p>
+                <h2 class="text-start my-1 font-color-custom py-2 fw-normal" > Request a callback</h2>
+                <p class=" text text-start my-1 py-2 " > Fill out the form below, and we'll call you within 24 hours</p>
                 <!-- <a class="btn btn-outline-secondary" href="#table">See more</a> -->
                 <!-- <div class="d-flex flex-column justify-content-center"> -->
                 <form class=" third-of-width"
@@ -127,22 +128,23 @@
                      id="formCallBack"
                    >
                            <div class=" text-start mb-3">
-                             <label style="  color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1" >Name <span style="color: red">*</span></label>
+                             <label  for="exampleFormControlInput1" class="form-label fs-6 mt-3"style="font-family:' Questrial', sans-serif;" >Name <span style="color: red">*</span></label>
                              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name" name="name" required>
-                             <label style="  color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1">Phone <span style="color: red">*</span></label>
+                             <label  for="exampleFormControlInput1" class="form-label fs-6 mt-3" style="font-family:' Questrial', sans-serif;" >Phone <span style="color: red">*</span></label>
                              <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Phone number" name="tel" required>
                            </div>
                           <div class="modal-footer">
-                            <button  class="btn btn-primary my-2" style  type="submit" id="btnCallBack"> Call Me Back</button>
+                            <button  class="btn btn-primary my-2" style="font-family:' Questrial', sans-serif;"  type="submit" id="btnCallBack"> Call Me back</button>
                            </div>
               
                            </form>
                           </div>
               
+                        </div>
           
-          
-            </section>
+           
             </div>
+          </section>
       <!--End Of Forms Section-->
 
           <footer class="text-muted py-3 bg-dark">
