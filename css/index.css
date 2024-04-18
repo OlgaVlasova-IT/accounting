@@ -1,4 +1,7 @@
-
+body {
+  background-color: #212529;
+  color: whitesmoke;
+}
 
 .font-family-custom {
   /* font-family: 'Red Hat Display', sans-serif; */
@@ -14,7 +17,7 @@
     border: 2px solid;
 }
 .bg-pic{
-    background-image: url("/images/accounting10\ reverse.jpg");
+    background-image: url("/images/accounting\ 13.jpg");
     background-position: center bottom; 
     background-repeat:no-repeat;
     background-size: cover;
@@ -190,8 +193,32 @@ body{
 }
 .third-of-width {
 
-  width: 40%
+  width: 80%
 }
+
+#exampleFormControlInput1 {
+  background-color: #212529;
+  border: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid whitesmoke;
+  color:whitesmoke;
+}
+
+#exampleFormControlInput2
+{
+  background-color: #212529;
+  border: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+#btnCallBack {border-radius: 0;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+ color: whitesmoke;}
+
+
 @media all and (max-width:800px){
   #servicesDiv
   {
@@ -204,6 +231,12 @@ body{
   .third-of-width {
   
   width: 100%
+}
+#contContactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #ourServicesphoto {
