@@ -203,9 +203,9 @@
           <section >
           <div class="container " id="featured-3 my-0 show-on-scroll">
             <h1 class=" fw-normal fs-1 text py-4 text-center font-color-custom py-1" >CONTACT US</h1>
-          <div >
-            <div class="d-flex justify-content-between align-items-start" id="contContactUs">
-            <div class="d-flex flex-column justify-content-center"> 
+          <div id="contContactUs">
+            <div class="d-flex justify-content-between align-items-start">
+            <div class="d-flex flex-column justify-content-center">
             <p>Call or email us if you have any any questions about our services, to resolve your concerns or for general inquiries.</p>
             <div class="d-flex flex-column align-items-start justify-content-start py-3 font-family-custom text-center">
               <div class="d-flex flex-column justify-content-start">
@@ -238,8 +238,7 @@
                 <form class="d-flex flex-column justify-content-center "
                     action="https://formspree.io/f/moqowkyk"
                      method="POST"
-                     id="formCallBack"
-                   >
+                     id="formCallBack">
                            <div class="mb-3 ">
                  
                              <label style="  color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1" >Name <span style="color: red">*</span></label>
@@ -247,8 +246,6 @@
                              <label style="  color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1">Phone <span style="color: red">*</span></label>
                              <input type="tel" class="form-control" id="exampleFormControlInput2" placeholder="Phone number" name="tel" required>
                            </div>
-                          
-
                           <div class="modal-footer" style="border: none">
                             <button  class="btn btn-primary my-2" style  type="submit" id="btnCallBack"> Call Me Back</button>
                            </div>
@@ -266,67 +263,71 @@
 
           <!--Testimonials-->
        
-          <div class="show-on-scroll bg-light px-5 py-5" >
+          <div class="show-on-scroll bg-dark px-5 py-5" >
             <div class="py-3  text-center container">
             <h1 class="fs-1 fw-normal" style="  color:#E4A86D" >WHAT  CLIENTS SAY?</h1>
             </div>
-          <div id="myCarousel" class="carousel  carousel-dark slide bg-light" data-bs-ride="carousel" >
+          <div id="myCarousel" class="carousel  carousel-light slide " data-bs-ride="carousel" >
       
-            <div class="carousel-indicators bg-light carousel-dark">
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <div class="carousel-indicators  carousel-light">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="color:whitesmoke" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
               <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
               <!-- <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class="" aria-current="true"></button> -->
             </div>
-            <div class="carousel-inner carousel-height bg-light " >
-              <div class="carousel-item bg-light carousel-height " > 
-                <svg class="bd-placeholder-img bg-light " width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#F8F9FA"></rect></svg>
-        
-                <div class="container bg-light ">
-                  <div class="carousel-caption bg-light py-5 my-3">
+            <div class="carousel-inner carousel-height bg-dark " >
+              <div class="carousel-item bg-dark carousel-height " >
+
+                <svg class="bd-placeholder-img bg-dark " width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#212529"></rect></svg>
+               
+                <div class="container bg-dark ">
+                  <div class="carousel-caption bg-dark py-5 my-3">
                     
-                    <p class="py-3 font-color-black font-family-custom text-start"> She was very prompt with her email responses and answered all my questions during our zoom chat. I highly recommend working with her!</p>
+                    <p class="py-3  font-family-custom text-start" style="color: whitesmoke"> She was very prompt with her email responses and answered all my questions during our zoom chat. I highly recommend working with her!</p>
                  
-                    <cite class="font-color-black font-family-custom"> Justin, Ottawa</cite>
+                    <cite class=" font-family-custom" style="color: whitesmoke"> Justin, Ottawa</cite>
                   </div>
                 </div>
               </div>
 
               <div class="carousel-item  carousel-height">
-                <svg class="bd-placeholder-img " width="100%" height="200%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#F8F9FA"></rect></svg>
+                <svg class="bd-placeholder-img " width="100%" height="200%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#212529"></rect></svg>
         
-                <div class="container bg-light"> 
-                  <div class="carousel-caption bg-light py-5 my-3 my-1">
+                <div class="container bg-dark"> 
+                  <div class="carousel-caption bg-dark py-5 my-3 my-1">
                   
-                    <p class="py-3 font-color-black font-family-custom text-start">I love that we were well taken care of and all of our questions were answered in a language that WE understood. Very pleased with KGP Tax Solutions.</p>
-                    <cite class="font-color-black font-family-custom"> Brianna, Vancouver</cite>
+                    <p class="py-3  font-family-custom text-start" style=" color: whitesmoke">I love that we were well taken care of and all of our questions were answered in a language that WE understood. Very pleased with KGP Tax Solutions.</p>
+                    <cite class=" font-family-custom" style="color: whitesmoke"> Brianna, Vancouver</cite>
                   </div>
                 </div>
               </div>
        
-              <div class="carousel-item active carousel-height bg-light" style="background-color: #FFFFFF;">
-                <svg class="bd-placeholder-img svg-ligh " width="100%" height ="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#F8F9FA"></rect></svg>
+              <div class="carousel-item active carousel-height bg-dark" style="background-color: #212529;">
+                <svg class="bd-placeholder-img svg-ligh " width="100%" height ="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#212529"></rect></svg>
         
-                <div class="container bg-light">
-                  <div class="carousel-caption bg-light py-5 my-3">
-                    <p class="py-3  font-color-black font-family-custom text-start">She is very professional, knowledgeable and always happy and able to answer all of my questions. Getting my taxes filed through her is a very quick and painless process.</p>
-                    <cite class="font-color-black font-family-custom"> Josh, Calgary</cite>
+                <div class="container bg-dark">
+                  <div class="carousel-caption bg-dark py-5 my-3">
+                    <p class="py-3  font-family-custom text-start" style="color: whitesmoke">She is very professional, knowledgeable and always happy and able to answer all of my questions. Getting my taxes filed through her is a very quick and painless process.</p>
+                    <cite class=" font-family-custom" style="color: whitesmoke"> Josh, Calgary</cite>
                   </div>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev carousel-dark bg-light " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon carousel-dark" aria-hidden="true"></span>
+            <button class="carousel-control-prev carousel-light bg-dark " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon carousel-light" aria-hidden="true"></span>
               <span class="visually-hidden bg-light">Previous</span>
             </button>
-            <button class="carousel-control-next carousel-dark bg-light" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon carousel-dark" aria-hidden="true"></span>
+            <button class="carousel-control-next carousel-light bg-dark" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon carousel-light" aria-hidden="true"></span>
               <span class="visually-hidden bg-light">Next</span>
             </button>
           </div>
         </div>
  
-                               
+            
+        
+
+
     
 <footer class="text-muted py-3 bg-dark">
   <div class="container">
