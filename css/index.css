@@ -18,9 +18,9 @@ body {
 }
 .bg-pic{
     background-image: url("/images/accounting\ 13.jpg");
-    background-position: center bottom; 
+    background-position: center top; 
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
 
 }
 .bg-pic1{
@@ -219,6 +219,17 @@ body{
  color: whitesmoke;}
 
 
+ #yearsExpirienceCont{
+  border-bottom:#E4A86D 1px solid;
+  border-left: #E4A86D 1px solid;
+}
+
+#satisfiedCustomersCont {
+  border-bottom:#E4A86D 1px solid;
+  border-left: #E4A86D 1px solid;
+}
+
+
 @media all and (max-width:800px){
   #servicesDiv
   {
@@ -228,9 +239,33 @@ body{
     align-items: center;
     width: 100
   }
+  #textCalltoActionButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 50vh; */
+  }
+
+  #yearsExpirienceCont{
+    border-bottom:#E4A86D 1px solid;
+    border-left: none;
+  }
+
+  #satisfiedCustomersCont {
+    border-bottom:#E4A86D 1px solid;
+    border-left: none;
+  }
+
+
   .third-of-width {
   
   width: 100%
+}
+
+#bannerCont {
+
+  display: flex;
+  flex-direction: column;
 }
 #contContactUs {
   display: flex;
