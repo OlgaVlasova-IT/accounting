@@ -5,13 +5,21 @@
     padding-right: 225px;
    
   }
+
+
+    body {
+      background-color: #212529;
+      color: whitesmoke;
+    }
  
+   
   .hoverclass :focus-visible,
   .hoverclass.active 
    {
     background-color: #E4A86D;
     color:whitesmoke;
-    border:#E4A86D
+    /* border:#E4A86D; */
+    border-top:#E4A86D
   }
   .font-family-custom {
     font-family: "Questrial", sans-serif;
@@ -47,6 +55,10 @@
       }
       .nav-link {
         text-align: center;
+      }
+
+      .fs-mobile {
+        font-size: 14px;
       }
 }
 

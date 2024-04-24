@@ -20,7 +20,7 @@ body {
     background-image: url("/images/accounting\ 13.jpg");
     background-position: center top; 
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 .bg-pic1{
