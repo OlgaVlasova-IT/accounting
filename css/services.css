@@ -12,14 +12,25 @@
       color: whitesmoke;
     }
  
-   
-  .hoverclass :focus-visible,
+   .accordion-item:active {
+
+    background-color: #212529;
+    border-bottom: 1px solid #E4A86D;
+   }
+
+  .hoverclass :focus,
+  .hoverclass:hover,
   .hoverclass.active 
    {
     background-color: #E4A86D;
     color:whitesmoke;
     /* border:#E4A86D; */
-    border-top:#E4A86D
+    border-top:#E4A86D;
+    border-bottom:#E4A86D;
+    border-left: none;
+    border-right: none;
+    border-radius:0;
+color: #E4A86D;
   }
   .font-family-custom {
     font-family: "Questrial", sans-serif;
@@ -45,6 +56,43 @@
   .font-color-custom {
     color:#E4A86D
   }
+
+
+  .list-group-item  {
+    background-color: #212529;
+    color: whitesmoke;
+    /* border-top: 1px solid #E4A86D; */
+    border-bottom: 1px solid #E4A86D;
+  }
+
+  .accordion-button {
+    background-color: #212529;
+    color: whitesmoke;
+    /* border-top: 1px solid #E4A86D; */
+    border-bottom: 1px solid #E4A86D;
+  }
+
+  .accordion-button :focus,
+  .list-group-item:focus
+   {
+    background-color: #E4A86D;
+    color: whitesmoke;
+    border-top: 1px solid #E4A86D;
+  }
+  
+  .list-group-item:hover {
+    /* background-color: #E4A86D;
+    color: whitesmoke; */
+    border-top: 1px solid #E4A86D;
+
+  }
+  .list-group-item:active {
+    background-color: #E4A86D;
+    color: whitesmoke;
+    border-top: 1px solid #E4A86D;
+  }
+
+
 @media all and (max-width:800px){
     .tab-size{
         /* width: 100%;
