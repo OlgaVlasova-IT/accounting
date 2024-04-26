@@ -11,6 +11,8 @@ body {
   color: whitesmoke;
 }
 
+
+
 .third-of-width {
     width: 100%
 }
@@ -79,5 +81,12 @@ body {
 
     .nav-link {
       text-align: center;
+    }
+
+   #contForms, #upperContContactUs {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
    }
