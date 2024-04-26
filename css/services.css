@@ -77,7 +77,7 @@ color: #E4A86D;
    {
     background-color: #E4A86D;
     color: whitesmoke;
-    border-top: 1px solid #E4A86D;
+    /* border-top: 1px solid #E4A86D; */
   }
   
   .list-group-item:hover {
