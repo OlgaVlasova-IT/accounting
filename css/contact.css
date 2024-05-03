@@ -72,6 +72,37 @@ body {
      color:whitesmoke;
      border:#E4A86D
    }
+
+   #exampleFormControlInput1 {
+    background-color: #212529;
+    border: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(149, 148, 148);
+    color:whitesmoke;
+  }
+  
+  #exampleFormControlInput2
+  {
+    background-color: #212529;
+    border: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(149, 148, 148);
+    color: whitesmoke;
+  }
+  
+  #exampleFormControlTextarea1{
+    background-color: #212529;
+    border: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(149, 148, 148);
+    color: whitesmoke;
+  }
+
+  #submitForm, #btnCallBack {border-radius: 0;
+    background-color: transparent;
+    border: 1px solid rgb(149, 148, 148);
+    border-radius: 0px;
+   color: whitesmoke;}
  
 @media all and (max-width:800px){
 
@@ -89,4 +120,9 @@ body {
       flex-direction: column;
       justify-content: center;
     }
+    #contForms {
+      width: 100%
+    }
+
+
    }

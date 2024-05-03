@@ -179,7 +179,9 @@ body{
   background-color: #E4A86D;
   color: whitesmoke;
 }
-
+#sendRequest{
+  border-radius: 0px;
+}
 
 .card-text {
   font-family: "Questrial", sans-serif;
@@ -200,7 +202,7 @@ body{
   background-color: #212529;
   border: transparent;
   border-radius: 0;
-  border-bottom: 1px solid whitesmoke;
+  border-bottom: 1px solid rgb(149, 148, 148);
   color:whitesmoke;
 }
 
@@ -209,13 +211,22 @@ body{
   background-color: #212529;
   border: transparent;
   border-radius: 0;
-  border-bottom: 1px solid whitesmoke;
+  border-bottom: 1px solid rgb(149, 148, 148);
+  color: whitesmoke;
+}
+
+#exampleFormControlTextarea1{
+  background-color: #212529;
+  border: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid rgb(149, 148, 148);
   color: whitesmoke;
 }
 
 #btnCallBack {border-radius: 0;
   background-color: transparent;
-  border: 2px solid whitesmoke;
+  border: 1px solid rgb(149, 148, 148);
+  border-radius: 0px;
  color: whitesmoke;}
 
 

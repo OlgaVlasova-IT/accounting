@@ -47,7 +47,7 @@
                     <a class="nav-link fw-bold nav-link-hover" href="contact.html" style="color: #E4A86D" >Contact</a>
                   </li>
                   <li class="nav-item  mx-3 ">
-                    <a class="nav-link fw-bold nav-link-hover  " id="showRequestForm"  data-bs-toggle="modal" data-bs-target="#modal"  style="color: #E4A86D; border: 2px solid #E4A86D; " >Request a quote</a>
+                    <a class="nav-link fw-bold nav-link-hover  " id="showRequestForm"  data-bs-toggle="modal" data-bs-target="#modal"  style="color: #E4A86D;  " >Request a quote</a>
                   </li>
                   <li class="nav-item mx-3"   >
                     <a class="nav-link visually-hidden " aria-current="page" href="" style="color: #212529" >Invisible</a>
@@ -60,38 +60,39 @@
           <div class="modal fade" id="modal"  tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content" >
-                <div class="modal-header d-flex flex-column justify-content-between align-items-start pb-0" style="border: none;">
+                <div class="modal-header d-flex flex-column justify-content-between align-items-start pb-0" style="border: none; background-color: #212529; color:whitesmoke">
                   <div class=" container d-flex justify-content-between align-items-center px-0">
                   <h2 class=" modal-title my-0 pt-2" style="  color:#E4A86D">Request a quote</h2>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="color:whitesmoke"></button>
                 </div>
                 <div>
                   <p class="fs-6 pt-2"  >We are pleased to offer a free quote for all our service with no commitment</p>
                 </div>
                 </div>
                 
-                <div class="modal-body pt-0" id="requestForm">
+                <div class="modal-body pt-0" id="requestForm" style="border: none; background-color: #212529; color:whitesmoke">
                  
                 
                   <form class="d-flex flex-column justify-content-center"
                     action="https://formspree.io/f/mkneegln"
                      method="POST"
                      id="formQuote"
+                     
                    >
                            <div class="mb-3  ">
-                             <label style=" color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1">Email <span style="color: red">*</span></label>
-                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
-                             <label style=" color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1" >Name <span style="color: red">*</span></label>
-                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name" name="name" required>
+                             <label style=" color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 mt-3 mb-0 ">Email <span style="color: red">*</span></label>
+                             <input type="email" class="form-control px-0" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
+                             <label style=" color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 mt-3 mb-0" >Name <span style="color: red">*</span></label>
+                             <input type="text" class="form-control px-0" id="exampleFormControlInput1" placeholder="Your name" name="name" required>
                            </div>
                            <div class="mb-3 ">
                              <label style=" color:#E4A86D" for="exampleFormControlTextarea1" class="form-label fs-6">Your message<span style="color: red">*</span></label>
-                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" required placeholder="Enter your message"></textarea>
+                             <textarea class="form-control px-0" id="exampleFormControlTextarea1" rows="3" name="message" required placeholder="Enter your message" style="border: none; background-color: #212529; color:whitesmoke"></textarea>
                              <!-- <button class="btn btn-outline-secondary my-3 btn-class-hover" type="submit" id="submitForm">Send</button> -->
                           </div>
 
-                          <div class="modal-footer">
-                            <button  class="btn btn-primary my-2" style  type="submit" id="sendRequest"> Send request</button>
+                          <div class="modal-footer" style="border-top: 1px solid rgb(149, 148, 148);">
+                            <button  class="btn btn-primary my-2" style  type="submit" id="sendRequest" style=" border-radius: 0px;  color:whitesmoke">  Send request</button>
                            </div>
               
                            </form>
@@ -105,8 +106,8 @@
           </div>
        
           <section class="container p-0 bg-dark">
-            <div class="d-flex  flex-column align-items-start vh-100"  id="bannerCont">
-        <div class="  mx-0 d-flex flex-column justify-content-center align-items-start " id="textCalltoActionButton" >
+            <div class="d-flex  flex-column align-items-center vh-100"  id="bannerCont">
+        <div class="  mx-0 d-flex flex-column justify-content-center align-items-center " id="textCalltoActionButton" >
 
           <div class="text-start ">
           <h1 class="display-1 fw-normal  px-0 mx-0 my-0 text-nowrap lh-1 " id="headingTax"  >Tax <span class="display-1 "  style=" font-family: 'Marcellus', serif; font-style: italic; color: #E4A86D;"  > Solutions</span></h1>
@@ -136,7 +137,7 @@
                   <!-- <h2 class="pb-2 border-bottom">Services</h2> -->
                   <div class="container row  py-5 row-cols-1 row-cols-lg-3 inline-photo show-on-scroll">
                     <div class="feature text-start   show-on-scroll " style="   border-bottom:#E4A86D 1px solid;">
-                       <p class="px-2"> At KGP Group, we understand that managing finances and navigating the complexities of accounting can be a overwhelming task. That's where we come in. Our dedicated team of experienced professionals is here to simplify the financial aspects of your business, allowing you to focus on what you do best.</p>
+                       <p class="px-2"> At KGP Group, we understand that managing finances can be a overwhelming task. Our dedicated team of experienced professionals is here to simplify the financial aspects of your business, allowing you to focus on what you do best.</p>
                       <!-- <p  >Full range of accounting services from basic slip returns to rental properties, sole proprietorships, small corporate businesses, and GST returns.</p> -->
                     
                     </div>
@@ -169,9 +170,9 @@
                         </svg>
                       </div> -->
                       <h3  style=" color:#E4A86D; border-bottom:#E4A86D 1px solid; ">Personal tax return</h2>
-                      <p class="mt-5" >You don’t need to spend your free time doing your tax return. Get full advantages of tax credits and spend more time with your family while we're taking care of your taxes.</p>
-                      <div class="btn-class-hover d-flex justify-content-center">
-                      <a class="btn btn-outline-secondary" href="services.html#nav-contact">See more</a>
+                      <p class="mt-5" >You don’t need to spend time doing tax return. Get full advantages of tax credits and spend more time with your family while we're taking care of your taxes.</p>
+                      <div class="btn-class-hover d-flex justify-content-end">
+                      <a class="btn btn-outline-light" href="services.html#nav-contact" style="border-radius: 0px; border-color: rgb(149, 148, 148);" width="100%">See more</a>
                       </div>
                     </div>
                     <div class=" py-1  show-on-scroll ">
@@ -184,8 +185,8 @@
                       </div> -->
                       <h3 style="  color:#E4A86D; border-bottom:#E4A86D 1px solid;  ">Sole proprietorship</h2>
                       <p class="mt-5" >Are you stressed about a tax season? We got you back! We'll  take care of your finances while you can focus on growing your business</p>
-                      <div class="btn-class-hover d-flex justify-content-center">
-                      <a class="btn btn-outline-secondary" href="services.html#nav-profile">See more</a>
+                      <div class="btn-class-hover d-flex justify-content-end">
+                      <a class="btn btn-outline-light" href="services.html#nav-profile"  style="border-radius: 0px; border-color: rgb(149, 148, 148);">See more</a>
                     </div>
                     </div> 
                     <div class="feature col py-1 show-on-scroll ">
@@ -199,8 +200,8 @@
                       </div> -->
                       <h3 style="  color:#E4A86D ; border-bottom:#E4A86D 1px solid;">Corporations</h2>
                     <p class="mt-5" >Get a clear understanding how your business is perfoming and increase profits with our monthly/quaterly/yearly accounting services pacckages </p>
-                      <div  class="btn-class-hover d-flex justify-content-center d-grid gap-2">
-                      <a class="btn  btn-outline-secondary btn-class-hover" href="services.html#nav-home">See more</a>
+                      <div  class="btn-class-hover d-flex justify-content-end d-grid gap-2">
+                      <a class="btn btn-outline-light btn-class-hover" href="services.html#nav-home" style="border-radius: 0px; border-color: rgb(149, 148, 148);">See more</a>
                     </div>
                     </div>
                   </div>
@@ -252,13 +253,13 @@
                      id="formCallBack">
                            <div class="mb-3 ">
                  
-                             <label style="  color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1" >Name <span style="color: red">*</span></label>
+                             <label style="  color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 mt-3 mb-0" >Name <span style="color: red">*</span></label>
                              <input type="text" class="form-control px-0" id="exampleFormControlInput1" placeholder="Your name" name="name" required>
-                             <label style="  color:#E4A86D" for="exampleFormControlInput1" class="form-label fs-6 my-1">Phone <span style="color: red">*</span></label>
-                             <input type="tel" class="form-control" id="exampleFormControlInput2" placeholder="Phone number" name="tel" required>
+                             <label style="  color:#E4A86D" for="exampleFormControlInput2" class="form-label fs-6 mt-3 mb-0">Phone <span style="color: red">*</span></label>
+                             <input type="tel" class="form-control px-0" id="exampleFormControlInput2" placeholder="Phone number" name="tel" required>
                            </div>
-                          <div class="modal-footer" style="border: none">
-                            <button  class="btn btn-primary my-2" style  type="submit" id="btnCallBack"> Call Me Back</button>
+                          <div class="modal-footer px-0" style="border: none">
+                            <button  class="btn btn-primary my-2 mx-0" style  type="submit" id="btnCallBack"> Call Me Back</button>
                            </div>
               
                            </form>
